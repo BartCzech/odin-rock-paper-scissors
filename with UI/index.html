@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors with UI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="score">
+      <h1 class="ties">Rock Paper Scissors</h1>
+    </div>
+    <div class="winnerDiv">
+      <h2 class="winner">Click anything in the first row to pley against the computer!</h2>
+      <button class="reset" onclick="resetGame()">Play again</button>
+    </div>
+    <div class="playerSection">
+      <h2 class="playerChoice">Your choice</h2>
+      <h3 class="playerScore">Your score: 0</h3>
+      <div class="playerImgs">
+        <img src="images/rock.png" alt="Rock" class="pImg" id="rock" />
+        <img src="images/paper.png" alt="Paper" class="pImg" id="paper" />
+        <img src="images/scissors.png" alt="Scissors" class="pImg" id="scissors" />
+      </div>
+    </div>
+    <div class="computerSection">
+      <h2 class="computerChoice">Computer choice</h2>
+      <h3 class="computerScore">Computer score: 0</h3>
+      <div class="computerImgs">
+        <img src="images/rock.png" alt="Rock" class="rock" />
+        <img src="images/paper.png" alt="Paper" class="paper" />
+        <img src="images/scissors.png" alt="Scissors" class="scissors" />
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
